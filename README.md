@@ -1,5 +1,5 @@
 # fira-sleek-theme
-
+![Fira Sleek Screenshot](screenshot.png?raw=true)
 A sleek dark theme for Limechat. Username colors borrowed from Google's Material Design document.
 # Requirements
 1. Make sure you have Fira Code installed on your machine. Find that here: https://github.com/tonsky/FiraCode
