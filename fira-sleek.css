@@ -1,0 +1,119 @@
+html {
+  background-color: #101010;
+  color: #f7f7f7;
+  font-family: 'Fira Code';
+  font-size: 9pt;
+  margin: 0;
+  padding: 3px 4px 10px 4px;
+  word-wrap: break-word;
+}
+
+body { margin: 0; padding: 0; }
+
+/* the html tag has these classes and attributes too */
+body.normal {}
+body.console {}
+body[type=channel] {}
+body[type=talk] {}
+body[type=console] {}
+body[channelname=#limechat] {}
+
+hr { margin: 0.5em 2em; }
+a {}
+.inlineimage {}
+
+/* lines */
+.line { margin: 0 -4px; padding: 0 4px 5px 4px; }
+.line[alternate=even] {}
+.line[alternate=odd] {}
+.line[type=action] .sender:before {
+  content: "• ";
+  white-space: nowrap;
+}
+.line[highlight=true] {
+  background-color: #333;
+}
+
+.url { color: #f7f7f7; word-break: break-all; }
+.address { text-decoration: underline; word-break: break-all; }
+.highlight { color: #fff; font-weight: bold; }
+.time { color: #444; }
+.place { color: #666; }
+
+/* nickname for text messages */
+.sender[type=myself] {                   color: #aaa; }
+.sender[type=normal] {                   color: #ccc; }
+.sender[type=normal][colornumber='0'] {  color: #F44336; }
+.sender[type=normal][colornumber='1'] {  color: #E91E63; }
+.sender[type=normal][colornumber='2'] {  color: #9C27B0; }
+.sender[type=normal][colornumber='3'] {  color: #3F51B5; }
+.sender[type=normal][colornumber='4'] {  color: #2196F3; }
+.sender[type=normal][colornumber='5'] {  color: #00BCD4; }
+.sender[type=normal][colornumber='6'] {  color: #009688; }
+.sender[type=normal][colornumber='7'] {  color: #4CAF50; }
+.sender[type=normal][colornumber='8'] {  color: #CDDC39; }
+.sender[type=normal][colornumber='9'] {  color: #FFC107; }
+.sender[type=normal][colornumber='10'] { color: #FF9800; }
+.sender[type=normal][colornumber='11'] { color: #FF5722; }
+.sender[type=normal][colornumber='12'] { color: #795548; }
+.sender[type=normal][colornumber='13'] { color: #8BC34A; }
+.sender[type=normal][colornumber='14'] { color: #03A9F4; }
+.sender[type=normal][colornumber='15'] { color: #673AB7; }
+
+/* message body */
+.message[type=system] {             color: #444; }
+.message[type=error] {              color: #a00; font-weight: bold; }
+.message[type=reply] {              color: #888; }
+.message[type=error_reply] {        color: #a00; }
+.message[type=dcc_send_send] {      color: #888; }
+.message[type=dcc_send_receive] {   color: #ccc; }
+.message[type=privmsg] {}
+.message[type=notice] {             color: #888; }
+.message[type=action] {             color: #888; }
+.message[type=join] {               color: #444; }
+.message[type=part] {               color: #444; }
+.message[type=kick] {               color: #444; }
+.message[type=quit] {               color: #444; }
+.message[type=kill] {               color: #444; }
+.message[type=nick] {               color: #444; }
+.message[type=mode] {               color: #444; }
+.message[type=topic] {              color: #444; }
+.message[type=invite] {             color: #444; }
+.message[type=wallops] {            color: #444; }
+.message[type=debug_send] {         color: #aaa; }
+.message[type=debug_receive] {      color: #444; }
+
+/* mIRC color effects */
+.effect[color-number='0'] {  color: #fff; }
+.effect[color-number='1'] {  color: #000; }
+.effect[color-number='2'] {  color: #00007f; }
+.effect[color-number='3'] {  color: #009300; }
+.effect[color-number='4'] {  color: #f00; }
+.effect[color-number='5'] {  color: #7f0000; }
+.effect[color-number='6'] {  color: #9c009c; }
+.effect[color-number='7'] {  color: #fc7f00; }
+.effect[color-number='8'] {  color: #ff0; }
+.effect[color-number='9'] {  color: #00fc00; }
+.effect[color-number='10'] { color: #009393; }
+.effect[color-number='11'] { color: #0ff; }
+.effect[color-number='12'] { color: #0000fc; }
+.effect[color-number='13'] { color: #f0f; }
+.effect[color-number='14'] { color: #7f7f7f; }
+.effect[color-number='15'] { color: #d2d2d2; }
+
+.effect[bgcolor-number='0'] {  background-color: #fff; }
+.effect[bgcolor-number='1'] {  background-color: #000; }
+.effect[bgcolor-number='2'] {  background-color: #00007f; }
+.effect[bgcolor-number='3'] {  background-color: #009300; }
+.effect[bgcolor-number='4'] {  background-color: #f00; }
+.effect[bgcolor-number='5'] {  background-color: #7f0000; }
+.effect[bgcolor-number='6'] {  background-color: #9c009c; }
+.effect[bgcolor-number='7'] {  background-color: #fc7f00; }
+.effect[bgcolor-number='8'] {  background-color: #ff0; }
+.effect[bgcolor-number='9'] {  background-color: #00fc00; }
+.effect[bgcolor-number='10'] { background-color: #009393; }
+.effect[bgcolor-number='11'] { background-color: #0ff; }
+.effect[bgcolor-number='12'] { background-color: #0000fc; }
+.effect[bgcolor-number='13'] { background-color: #f0f; }
+.effect[bgcolor-number='14'] { background-color: #7f7f7f; }
+.effect[bgcolor-number='15'] { background-color: #d2d2d2; }
