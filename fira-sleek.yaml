@@ -5,14 +5,14 @@ log-view:
   nickname-format: '%n: '
   scroller-highlight-color: '#f0f'
 input-text:
-  font-family: 'Fira Code'
+  font-family: 'Fira Mono'
   font-size: 11.0
   background-color: '#101010'
   color: '#f7f7f7'
   selected:
     background-color: '#ccc'
 member-list:
-  font-family: 'Fira Code'
+  font-family: 'Fira Mono'
   font-size: 11.0
   color: '#f7f7f7'
   background-color: '#101010'
@@ -27,7 +27,7 @@ member-list:
       top-color: '#333'
       bottom-color: '#333'
 server-tree:
-  font-family: 'Fira Code'
+  font-family: 'Fira Mono'
   font-size: 11.0
   background-color: '#101010'
   highlight:
